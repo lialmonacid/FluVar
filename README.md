@@ -1,6 +1,6 @@
 # FluVar #
 
-Flu Variants (FluVar) is tool that highlights positions (nucleotides or amino acid) within the influenza A genome and provides additional information regarding functional annotation associated to the region where the desired position is located (NLS, antigenic regions, protein-protein interacting sites, etc). The program uses as input, a tab-delimited text file containing the positions of interests. The output of the program comprises three file types. First, a single text tab-delimited file (`\*_var_annotated.txt`) which contain the position inquired together with the annotation available in each case. Second, a set of PDF files (`\*_annotation.pdf`) containing a graphical representation of the position within each segment or protein and its annotation. Third, a set of pymol sessions (`\*.pse`) containing, highlighted, the inquired position within a crystallographic structure of the respective influenza protein.
+Flu Variants (FluVar) is tool that highlights positions (nucleotides or amino acid) within the influenza A genome and provides additional information regarding functional annotation associated to the region where the desired position is located (NLS, antigenic regions, protein-protein interacting sites, etc). The program uses as input, a tab-delimited text file containing the positions of interests. The output of the program comprises three file types. First, a single text tab-delimited file (`*_var_annotated.txt`) which contain the position inquired together with the annotation available in each case. Second, a set of PDF files (`*_annotation.pdf`) containing a graphical representation of the position within each segment or protein and its annotation. Third, a set of pymol sessions (`*.pse`) containing, highlighted, the inquired position within a crystallographic structure of the respective influenza protein.
 
 The information collected for each site comes from scientific journals. 
 
@@ -26,7 +26,7 @@ FluVar takes as input a tab-delimited text file as shown below:
 Each row has the position of interest where the first field is the identifier of the segment (`1`, `2`, `3`, `4`, `5`, `6`, `7` or `8`) or protein (`PB2`, `PB1`, `PA`, `HA`, `NP`, `NA`, `M1`, `M2`, `NS1` or `NEP`). The second field is the actual position delivered as a single numeric value (`350`). In the case that the position is relative to the nucleotide sequence (determined by the identifier), an alternative option is allowed were the numeric value is followed by the nucleotides `A`, `C`, `T` or `G` to be used as variations in the respective codon (`350T` or `350AG`).  
 
 ## Output files ##
-### Tab-delimited text file `\*_var_annotated.txt ` ###
+### Tab-delimited text file `*_var_annotated.txt ` ###
 
 
 A tab-delimited file is generated with the suffix “_var_annotated.txt”. This file contains 8 fields summarized below:
@@ -43,12 +43,12 @@ A tab-delimited file is generated with the suffix “_var_annotated.txt”. This
 | 8 | The annotation separated by “;” of the given site. | `HA-CDS; HA1; Cb`  |
 
 
-### Figures in PDF files `\*_annotation.pdf ` ###
+### Figures in PDF files `*_annotation.pdf ` ###
 
 All positions per segment or protein are group in a single figure. Below is shown an example ([PDF](https://github.com/lialmonacid/FluVar/blob/master/examples/example_output/HA_annotation.pdf)<-can be found here).
 <p align="center"><img  src="examples/example_output/HA_annotation.png"/></p>
 
-### Pymol sessions files `\*.pse` ###
+### Pymol sessions files `*.pse` ###
 
 All positions per protein are group in a single pymol session together with its corresponding annotation. Below is shown how it looks the visualization in PyMOL of the expected an pymol session (pymol file `\*.pse` can be found [here](https://github.com/lialmonacid/FluVar/blob/master/examples/example_output/HA_H1N1_3UBQ_var.pse).
 <p align="center"><img  src="examples/example_output/HA_H1N1_3UBQ_var.png"/></p>
