@@ -52,3 +52,5 @@ All positions per segment or protein are group in a single figure. Below is show
 
 All positions per protein are group in a single pymol session together with its corresponding annotation. Below is shown how it looks the visualization in PyMOL of the expected an pymol session (pymol file `*.pse` can be found [here](https://github.com/lialmonacid/FluVar/blob/master/examples/example_output/HA_H1N1_3UBQ_var.pse).
 <p align="center"><img  src="examples/example_output/HA_H1N1_3UBQ_var.png"/></p>
+
+Inquired positions are highlighted in red. In the side bar, within PyMOL, each feature has been previously selected and named accordingly. User variations are named as `var_` followed by the amino acid number corresponding to each queried position.
