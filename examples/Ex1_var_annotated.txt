@@ -1,0 +1,5 @@
+5	350	350	NP:102	GGA:349:350:351:G		H1N1	NP-CDS; PB2-interaction; RNA-binding
+8	36	36	NS1:4; NEP:4	AAC:36:37:38:N; AAC:36:37:38:N		H1N1	RIG-I-interacting; E1B-AP5-interacting; NEP-CDS; PABP1-interacting; dsRNA-interacting; protease-sensitive-N-terminal-domain; NS1-CDS
+3	50	50	PA:9	TTC:49:50:51:F		H1N1	PA-CDS
+3	2000	2000	PA:659	TCG:1999:2000:2001:S		H1N1	PA-CDS; PB1-interacting
+3	1000	1000	PA:326	CAT:1000:1001:1002:H		H1N1	PA-CDS

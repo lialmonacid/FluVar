@@ -1,0 +1,141 @@
+>Feature 1|H1N1|complete|contiguous|k29_c06_a1571;1771
+28	2307	gene		
+			gene	PB2
+28	2307	CDS		
+			product	polymerase PB2
+			protein_id	1|H1N1|complete|contiguous|k29_c06_a1571;1771p1
+			gene	PB2
+    
+ INFO: Length: 2341 nucleotides
+ INFO: Segment: 1 (PB2)
+ INFO: Sequence completeness: protein 1 - complete; nucleotide - complete
+ INFO: Virus type: influenza A
+===================================================================
+>Feature 2|H1N1|complete|contiguous|k29_c12_a698;637
+25	2298	gene		
+			gene	PB1
+25	2298	CDS		
+			product	polymerase PB1
+			protein_id	2|H1N1|complete|contiguous|k29_c12_a698;637p1
+			gene	PB1
+119	391	gene		
+			gene	PB1-F2
+119	391	misc_feature		
+			note	nonfunctional PB1-F2 protein due to mutation
+    
+ INFO: Length: 2341 nucleotides
+ INFO: Segment: 2 (PB1)
+ INFO: Sequence completeness: protein 1 - complete; nucleotide - complete
+ INFO: Virus type: influenza A
+ WARNING: The coding region of PB1-F2 has stop codon inside exon
+===================================================================
+>Feature 3|H1N1|complete|contiguous|k31_c12_a711;391
+25	2175	gene		
+			gene	PA
+25	2175	CDS		
+			product	polymerase PA
+			protein_id	3|H1N1|complete|contiguous|k31_c12_a711;391p1
+			gene	PA
+25	724	gene		
+			gene	PA-X
+25	594	CDS		
+596	724			
+			product	PA-X protein
+			protein_id	3|H1N1|complete|contiguous|k31_c12_a711;391p2
+			exception	ribosomal slippage
+			gene	PA-X
+    
+ INFO: Length: 2233 nucleotides
+ INFO: Segment: 3 (PA)
+ INFO: Sequence completeness: protein 1 - complete; protein 2 - complete; nucleotide - complete
+ INFO: Virus type: influenza A
+===================================================================
+>Feature 4|H1N1|complete|contiguous|k25_c06_a5570;3606
+33	1733	gene		
+			gene	HA
+33	1733	CDS		
+			product	hemagglutinin
+			protein_id	4|H1N1|complete|contiguous|k25_c06_a5570;3606p1
+			function	receptor binding and fusion protein
+			gene	HA
+33	83	sig_peptide
+84	1064	mat_peptide
+			product HA1
+1065	1730	mat_peptide
+			product HA2
+    
+ INFO: Length: 1777 nucleotides
+ INFO: Segment: 4 (HA)
+ INFO: Sequence completeness: protein 1 - complete; nucleotide - complete
+ INFO: Serotype: H1
+ INFO: Virus type: influenza A
+===================================================================
+>Feature 5|H1N1|complete|contiguous|k31_c06_a3064;3981
+46	1542	gene		
+			gene	NP
+46	1542	CDS		
+			product	nucleocapsid protein
+			protein_id	5|H1N1|complete|contiguous|k31_c06_a3064;3981p1
+			gene	NP
+    
+ INFO: Length: 1565 nucleotides
+ INFO: Segment: 5 (NP)
+ INFO: Sequence completeness: protein 1 - complete; nucleotide - complete
+ INFO: Virus type: influenza A
+===================================================================
+>Feature 6|H1N1|complete|contiguous|k27_c06_a6260;5610
+21	1430	gene		
+			gene	NA
+21	1430	CDS		
+			product	neuraminidase
+			protein_id	6|H1N1|complete|contiguous|k27_c06_a6260;5610p1
+			gene	NA
+    
+ INFO: Length: 1458 nucleotides
+ INFO: Segment: 6 (NA)
+ INFO: Sequence completeness: protein 1 - complete; nucleotide - complete
+ INFO: Serotype: N1
+ INFO: Virus type: influenza A
+===================================================================
+>Feature 7|H1N1|complete|contiguous|k27_c06_a7440;11672
+26	784	gene		
+			gene	M1
+26	784	CDS		
+			product	matrix protein 1
+			protein_id	7|H1N1|complete|contiguous|k27_c06_a7440;11672p1
+			gene	M1
+26	1007	gene		
+			gene	M2
+26	51	CDS		
+740	1007			
+			product	matrix protein 2
+			protein_id	7|H1N1|complete|contiguous|k27_c06_a7440;11672p2
+			gene	M2
+    
+ INFO: Length: 1027 nucleotides
+ INFO: Segment: 7 (MP)
+ INFO: Sequence completeness: protein 1 - complete; protein 2 - complete; nucleotide - complete
+ INFO: This sequence (7|H1N1|complete|contiguous|k27_c06_a7440;11672) contains following signature mutation(s) that might confer amantadine resistance: (S31N)
+ INFO: Virus type: influenza A
+===================================================================
+>Feature 8|H1N1|complete|contiguous|k31_c12_a1408;13866
+27	686	gene		
+			gene	NS1
+27	686	CDS		
+			product	nonstructural protein 1
+			protein_id	8|H1N1|complete|contiguous|k31_c12_a1408;13866p1
+			gene	NS1
+27	864	gene		
+			gene	NEP
+			gene_syn	NS2
+27	56	CDS		
+529	864			
+			product	nuclear export protein
+			note	nonstructural protein 2
+			protein_id	8|H1N1|complete|contiguous|k31_c12_a1408;13866p2
+			gene	NEP
+    
+ INFO: Length: 890 nucleotides
+ INFO: Segment: 8 (NS)
+ INFO: Sequence completeness: protein 1 - complete; protein 2 - complete; nucleotide - complete
+ INFO: Virus type: influenza A

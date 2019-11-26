@@ -1,0 +1,5 @@
+20	PB2
+X	HA
+13	NS1
+HA1	HA
+ha1	HA

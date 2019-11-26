@@ -1,0 +1,22 @@
+#!/bin/bash
+
+printf "\n./FluVar.py -i ./example_1_nucleotide_TSV.txt -s H1N1 -o ./examples/Ex1 -t N\n"
+./FluVar.py -i ./examples/example_1_nucleotide_TSV.txt -s H1N1 -o ./examples/Ex1 -t N
+
+printf "\n./FluVar.py -i ./examples/example_1_nucleotide_TSV.txt -s H3N2 -o ./examples/Ex2 -t P\n"
+./FluVar.py -i ./examples/example_2_protein_TSV.txt -s H1N1 -o ./examples/Ex2 -t P
+
+printf "\n./FluVar.py -i ./examples/example_3_VCF.vcf -f V -s H1N1 -o ./examples/Ex3 -t N -l ./examples/example_3_VCF.labelsConversion.txt\n"
+./FluVar.py -i ./examples/example_3_VCF.vcf -f V -s H1N1 -o ./examples/Ex3 -t N -l ./examples/example_3_VCF.labelsConversion.txt
+
+printf "\n./FluVar.py -i ./examples/example_4_protein_TSV.txt -f T -s H1N1 -o ./examples/Ex4 -t P -l ./examples/example_4_protein_TSV.labelsConversion.txt\n"
+./FluVar.py -i ./examples/example_4_protein_TSV.txt -f T -s H1N1 -o ./examples/Ex4 -t P -l ./examples/example_4_protein_TSV.labelsConversion.txt
+
+printf "\n./FluVar.py -i ./examples/example_5_nucleotide_TSV.txt -f T -s H1N1 -o ./examples/Ex5 -t N -r ./examples/example_5_nucleotide_TSV.altRef.fasta\n"
+./FluVar.py -i ./examples/example_5_nucleotide_TSV.txt -f T -s H1N1 -o ./examples/Ex5 -t N -r ./examples/example_5_nucleotide_TSV.altRef.fasta 
+
+printf "\n./FluVar.py -i ./examples/example_6_protein_TSV.txt -f T -s H1N1 -o ./examples/Ex6_1 -t P -r ./examples/example_6_protein_TSV.altRef.fasta\n"
+./FluVar.py -i ./examples/example_6_protein_TSV.txt -f T -s H1N1 -o ./examples/Ex6_1 -t P -r ./examples/example_6_protein_TSV.altRef.fasta
+
+printf "\n./FluVar.py -i ./examples/example_6_protein_TSV.txt -f T -s H1N1 -o ./examples/Ex6_2 -t P -r ./examples/example_6_protein_TSV.altRef.partial.fasta\n"
+./FluVar.py -i ./examples/example_6_protein_TSV.txt -f T -s H1N1 -o ./examples/Ex6_2 -t P -r ./examples/example_6_protein_TSV.altRef.partial.fasta
