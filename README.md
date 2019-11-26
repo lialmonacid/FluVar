@@ -48,7 +48,20 @@ A tab-delimited file is generated with the suffix “_var_annotated.txt”. This
 All positions per segment or protein are group in a single figure. Below is shown an example for the hemagglutinin protein where the queried position are highlighted in the track `Variations` by the blue peaks ([PDF](https://github.com/lialmonacid/FluVar/blob/master/examples/example_output/HA_annotation.pdf)<-can be found here).
 <p align="center"><img  src="examples/example_output/HA_annotation.png"/></p>
 
-In the `Structure coverage` track is represented the portion cover by the available crystallographic structure for the given protein. The PDB code is indicated above each box in this track.
+In the `Structure coverage` track is represented the portion cover by the available crystallographic structure for the given protein. The PDB code is indicated above each box in this track. The PDB structures used by the _FluVar_ are shown in the table below.
+
+| Protein | Segment | PDB codes|
+| - | - | - |
+| PB2 | 1 | `5FMQ`, `3CW4` and `2JDQ` |
+| PB1 | 2 | `2ZTT` |
+| PA | 3 | `4AWH` and `2ZNL` |
+| HA | 4 | `3UBQ` (H1N1), `3HMG` (H3N2), `1HTM` (H3N2, low pH) |
+| NP | 5 | `3ZDP` |
+| NA | 6 | `4B7R` (H1N1) |
+| M1 | 7 | `4PUS` |
+| M2 | 7 | `2RLF` |
+| NS1 | 8 | `4OPA`, `2ZKO`, `2RHK` and `3L4Q` |
+| NEP | 8 | `1PD3` |
 
 ### Pymol sessions files `*.pse` ###
 
