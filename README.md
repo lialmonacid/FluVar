@@ -45,7 +45,7 @@ A tab-delimited file is generated with the suffix “_var_annotated.txt”. This
 
 ### Figures in PDF files `*_annotation.pdf ` ###
 
-All positions per segment or protein are group in a single figure. Below is shown an example ([PDF](https://github.com/lialmonacid/FluVar/blob/master/examples/example_output/HA_annotation.pdf)<-can be found here).
+All positions per segment or protein are group in a single figure. Below is shown an example for the hemagglutinin protein where the queried position are highlighted in the track `Variations` by the blue peaks ([PDF](https://github.com/lialmonacid/FluVar/blob/master/examples/example_output/HA_annotation.pdf)<-can be found here).
 <p align="center"><img  src="examples/example_output/HA_annotation.png"/></p>
 
 ### Pymol sessions files `*.pse` ###
