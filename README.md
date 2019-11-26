@@ -50,5 +50,5 @@ All positions per segment or protein are group in a single figure. Below is show
 
 ### Pymol sessions files `*.pse` ###
 
-All positions per protein are group in a single pymol session together with its corresponding annotation. Below is shown how it looks the visualization in PyMOL of the expected an pymol session (pymol file `\*.pse` can be found [here](https://github.com/lialmonacid/FluVar/blob/master/examples/example_output/HA_H1N1_3UBQ_var.pse).
+All positions per protein are group in a single pymol session together with its corresponding annotation. Below is shown how it looks the visualization in PyMOL of the expected an pymol session (pymol file `*.pse` can be found [here](https://github.com/lialmonacid/FluVar/blob/master/examples/example_output/HA_H1N1_3UBQ_var.pse).
 <p align="center"><img  src="examples/example_output/HA_H1N1_3UBQ_var.png"/></p>
