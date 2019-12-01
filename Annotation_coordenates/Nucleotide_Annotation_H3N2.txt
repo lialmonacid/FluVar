@@ -118,7 +118,7 @@
 8	CPSF-interacting	465-590
 8	PKR-interacting	393-407
 8	protease-sensitive-N-terminal-domain	27-56
-8	protease-sensitive-N-terminal-domain	529-571
+8	protease-sensitive-N-terminal-domain	529-657
 8	protease-resistant-C-terminal-domain	658-861
 8	C1-alpha-helix	688-753
 8	C2-alpha-helix	778-843

@@ -60,7 +60,7 @@ Track_3<-ATrack(start=c(126,438,27), end=c(140,467,269),
                 just.group = "above")
 
 # NEP Domains
-Track_4<-ATrack(start=c(27,529,658), end=c(56,571,861),
+Track_4<-ATrack(start=c(27,529,658), end=c(56,657,861),
                 name ="NEP domains",
                 id=c("Protease sensitive N-terminal","Protease sensitive N-terminal","Protease resistant C-terminal"),
                 feature=c("Protease sensitive N-terminal","Protease sensitive N-terminal","Protease resistant C-terminal"),
